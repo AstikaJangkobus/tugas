@@ -1,16 +1,18 @@
 import logo from './logo.svg';
 import './Hello.css';
 
-function Hello() {
+function App() {
   return (
-    <div className="Hello">
-      <header className="Hello-header">
-        <img src={logo} className="Hello-logo" alt="logo" />
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/Hello.js</code> and save to reload.
+          <h1>
+            Astika
+          </h1>      
         </p>
         <a
-          className="Hello-link"
+          className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
